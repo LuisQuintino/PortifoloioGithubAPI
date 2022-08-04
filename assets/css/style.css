@@ -1,0 +1,12 @@
+ * {
+     display: flexbox;
+     vertical-align: middle;
+     align-items: center;
+     align-self: center;
+     align-content: center;
+     text-align: center;
+ }
+
+.container {
+    margin-top: 12%;
+}

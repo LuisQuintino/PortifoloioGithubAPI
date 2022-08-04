@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../assets/css/produtos.css">
+</head>
+<body>
+    <header>
+        <div>
+           <span id="usuario-logado"></span>
+        </div>
+        
+        <div>
+            <button type="button" onclick="paginaInicial()">Voltar</button>
+        </div>
+
+        <div id="media2">
+            <button type="button" id="btnMedia">Média</button>
+        </div>
+
+        <div>
+            <button type="button" onclick="btnDolar(vetorProduto)">Dolar</button>
+        </div>
+    </header>
+    <div>
+        <button 
+        id="filtro01"
+        type="button">Filtrar Apenas em Estoque</button>
+    </div>
+    <div id="lista-produtos">
+
+    </div>
+    <script src="../assets/js/home.js">
+    </script>
+    <script src="../assets/js/funcoes_funcionais.js">
+    </script>
+    <script src="../assets/js/requisicao.js">
+    </script>
+</body>
+</html>

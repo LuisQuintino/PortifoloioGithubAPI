@@ -1,0 +1,11 @@
+#lista-produtos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.produto{
+    width: 200px;
+    background-color: black;
+    color: aqua;
+}
